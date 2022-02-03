@@ -1,1 +1,61 @@
 /* Other rules */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+.App {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+label {
+  color: #555;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+input,
+.results button {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #aaa;
+  background: #fafafa;
+  border-radius: 5px;
+  color: #555;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+input[type="submit"],
+.results button {
+  background: rgb(62, 51, 218);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.results {
+  background: #fafafa;
+  padding: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 50px;
+}
